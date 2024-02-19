@@ -1,0 +1,48 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7181
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5211
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\sil\2024\Subat\Repro52809\Repro52809
+warn: Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[100]
+      Unhandled exception rendering component: Object reference not set to an instance of an object.
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Repro52809.Components.Account.Shared.StatusMessage.OnInitialized() in C:\sil\2024\Subat\Repro52809\Repro52809\Components\Account\Shared\StatusMessage.razor:line 22
+         at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+fail: Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[111]
+      Unhandled exception in circuit 'o4gZnw_bntumLcuWU_srUcwRsPDnc7vuOehYpDyUna0'.
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Repro52809.Components.Account.Shared.StatusMessage.OnInitialized() in C:\sil\2024\Subat\Repro52809\Repro52809\Components\Account\Shared\StatusMessage.razor:line 22
+         at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+warn: Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[100]
+      Unhandled exception rendering component: Cannot access a disposed object.
+      System.ObjectDisposedException: Cannot access a disposed object.
+         at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+         at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+         at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+         at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+         at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+         at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+fail: Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[111]
+      Unhandled exception in circuit 'o4gZnw_bntumLcuWU_srUcwRsPDnc7vuOehYpDyUna0'.
+      System.ObjectDisposedException: Cannot access a disposed object.
+         at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+         at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+         at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+         at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+         at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+         at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+warn: Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[100]
+      Unhandled exception rendering component: Object reference not set to an instance of an object.
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Repro52809.Components.Account.Pages.Login.OnInitializedAsync() in C:\sil\2024\Subat\Repro52809\Repro52809\Components\Account\Pages\Login.razor:line 83
+         at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+fail: Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[111]
+      Unhandled exception in circuit 'o4gZnw_bntumLcuWU_srUcwRsPDnc7vuOehYpDyUna0'.
+      System.NullReferenceException: Object reference not set to an instance of an object.
+         at Repro52809.Components.Account.Pages.Login.OnInitializedAsync() in C:\sil\2024\Subat\Repro52809\Repro52809\Components\Account\Pages\Login.razor:line 83
+         at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
